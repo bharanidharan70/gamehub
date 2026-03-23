@@ -173,7 +173,7 @@ $result = $conn->query("SELECT * FROM user_games WHERE user_id='$user_id'");
     </nav>
 
     <!-- CONTENT -->
-    <div class="container flex-grow-1">
+    <div class="container flex-grow-1 mb-5">
 
         <h3 class="section-title mb-5">🎮 Your Games</h3>
         <div class="row g-4">
