@@ -176,24 +176,24 @@ $result = $conn->query("SELECT * FROM user_games WHERE user_id='$user_id'");
                             <div class="card-body">
                                 <h5><?php echo $row['game_name']; ?></h5>
                                 <button class="btn btn-success w-100">Play</button>
-                                    <!-- 🔥 REMOVE BUTTON -->
-                                    <form class="mt-2" action="remove_game.php" method="POST">
-                                        <input type="hidden" name="game_id" value="<?php echo $row['id']; ?>">
-                                        <button class="btn btn-danger w-100">Remove</button>
-                                    </form>
-                                </div>
+                                <!-- 🔥 REMOVE BUTTON -->
+                                <form class="mt-2" action="remove_game.php" method="POST">
+                                    <input type="hidden" name="game_id" value="<?php echo $row['id']; ?>">
+                                    <button class="btn btn-danger w-100">Remove</button>
+                                </form>
                             </div>
                         </div>
                     </div>
+        </div>
 
-            <?php
+<?php
                 }
             } else {
                 echo "<p class='text-center'>No games downloaded yet 😢</p>";
             }
-            ?>
+?>
 
-        </div>
+    </div>
 
     </div>
 

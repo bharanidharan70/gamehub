@@ -236,7 +236,11 @@ session_start();
 
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
-                            <button class="btn btn-outline-light w-50">Download</button>
+                            <form action="add_to_library.php" method="POST" class="w-50">
+                                <input type="hidden" name="game_name" value="Neon Legends">
+                                <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp10439053.jpg">
+                                <button class="btn btn-download btn-outline-light w-100">Download</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -256,7 +260,11 @@ session_start();
 
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
-                            <button class="btn btn-outline-light w-50">Download</button>
+                            <form action="add_to_library.php" method="POST" class="w-50">
+                                <input type="hidden" name="game_name" value="War Zone">
+                                <input type="hidden" name="game_image" value="https://img.freepik.com/premium-photo/call-duty-mobile-hd-art-full-wallpaper-collection-soldier-standing-front-fire-filled-sky_116317-37689.jpg">
+                                <button class="btn btn-download btn-outline-light w-100">Download</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -275,7 +283,11 @@ session_start();
 
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
-                            <button class="btn btn-outline-light w-50">Download</button>
+                            <form action="add_to_library.php" method="POST" class="w-50">
+                                <input type="hidden" name="game_name" value="Velocity Rush">
+                                <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
+                                <button class="btn btn-download btn-outline-light w-100">Download</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -295,7 +307,11 @@ session_start();
 
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
-                            <button class="btn btn-outline-light w-50">Download</button>
+                            <form action="add_to_library.php" method="POST" class="w-50">
+                                <input type="hidden" name="game_name" value="Battle Arena">
+                                <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
+                                <button class="btn btn-download btn-outline-light w-100">Download</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -351,7 +367,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Speed Racer">
+                                    <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -371,7 +391,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Drift King">
+                                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -391,7 +415,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Velocity Rush">
+                                    <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -411,7 +439,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Turbo Legends">
+                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -431,7 +463,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Street Nitro">
+                                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -457,7 +493,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="War Arena">
+                                    <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -477,7 +517,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Shadow Strike">
+                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -497,7 +541,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Sniper Elite X">
+                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -517,7 +565,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="BattleStorm">
+                                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1542751371-adc38448a05e">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -542,7 +594,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Sniper Fury">
+                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHrEveSAunE2NO_3w8tM2jjFOd79KNfFymg&s">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -562,7 +618,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Bullet Strike">
+                                    <input type="hidden" name="game_image" value="https://i.ytimg.com/vi/eCehDd2VKWo/maxresdefault.jpg">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -582,7 +642,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="Empire Builder">
+                                    <input type="hidden" name="game_image" value="https://upload.wikimedia.org/wikipedia/en/1/13/First_edition_of_Empire_Builder_1982.jpg">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -602,7 +666,11 @@ session_start();
 
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
-                                <button class="btn btn-outline-light w-50">Download</button>
+                                <form action="add_to_library.php" method="POST" class="w-50">
+                                    <input type="hidden" name="game_name" value="War Tactics">
+                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWRkuVHkB7nJwMNlRrUJV8BkJO0Hhj9Ooxw&s">
+                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                                </form>
                             </div>
                         </div>
                     </div>
