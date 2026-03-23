@@ -66,6 +66,9 @@ $result = $conn->query("SELECT * FROM user_games WHERE user_id='$user_id'");
             border-radius: 15px;
             transition: 0.3s;
             color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         .card:hover {
@@ -75,6 +78,16 @@ $result = $conn->query("SELECT * FROM user_games WHERE user_id='$user_id'");
         .card img {
             height: 180px;
             object-fit: cover;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .section-title {
@@ -163,37 +176,44 @@ $result = $conn->query("SELECT * FROM user_games WHERE user_id='$user_id'");
     <div class="container flex-grow-1">
 
         <h3 class="section-title mb-5">🎮 Your Games</h3>
-        <div class="row">
+        <div class="row g-4">
 
             <?php
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
             ?>
 
-                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card">
+
                             <img src="<?php echo $row['game_image']; ?>">
+
                             <div class="card-body">
+
                                 <h5><?php echo $row['game_name']; ?></h5>
-                                <button class="btn btn-success w-100">Play</button>
-                                <!-- 🔥 REMOVE BUTTON -->
-                                <form class="mt-2" action="remove_game.php" method="POST">
-                                    <input type="hidden" name="game_id" value="<?php echo $row['id']; ?>">
-                                    <button class="btn btn-danger w-100">Remove</button>
-                                </form>
+
+                                <div class="mt-auto">
+                                    <button class="btn btn-success w-100 mb-2">Play</button>
+
+                                    <form action="remove_game.php" method="POST">
+                                        <input type="hidden" name="game_id" value="<?php echo $row['id']; ?>">
+                                        <button class="btn btn-danger w-100">Remove</button>
+                                    </form>
+                                </div>
+
                             </div>
+
                         </div>
                     </div>
-        </div>
 
-<?php
+            <?php
                 }
             } else {
                 echo "<p class='text-center'>No games downloaded yet 😢</p>";
             }
-?>
+            ?>
 
-    </div>
+        </div>
 
     </div>
 
