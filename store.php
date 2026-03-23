@@ -154,214 +154,634 @@
 
             <!-- 1 -->
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://wallpapercave.com/wp/wp10439053.jpg">
-                    <div class="card-body">
-                        <h5>Neon Legends</h5>
-                        <div class="text-warning">★★★★☆</div>
-                        <p class="price">₹999</p>
-                        <p class="small text-white-50">⬇️ 2M</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
+    <div class="card game-card">
 
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Neon Legends">
-                                <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp10439053.jpg">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+        <img src="https://wallpapercave.com/wp/wp10439053.jpg" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Neon Legends</h6>
+                <span class="rating text-warning fw-bold">⭐ 4.0</span>
             </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">Neon Studios</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-info">Arcade</span>
+                <span class="badge bg-dark">Cyberpunk</span>
+                <span class="badge bg-success">Multiplayer</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2024 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 2M downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹999</span>
+                <span class="badge bg-warning text-dark">POPULAR</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Neon-themed arcade action with vibrant visuals and fast-paced gameplay.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Neon Legends">
+                    <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp10439053.jpg">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!-- 2 -->
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
-                    <div class="card-body">
-                        <h5>Battle Arena</h5>
-                        <div class="text-warning">★★★☆☆</div>
-                        <p class="price">₹799</p>
-                        <p class="small text-white-50">⬇️ 1.5M</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Battle Arena">
-                                <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="card game-card">
+
+        <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Battle Arena</h6>
+                <span class="rating text-info fw-bold">⭐ 3.0</span>
             </div>
 
-            <!-- 3 -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://wallpapercave.com/wp/wp2041824.jpg">
-                    <div class="card-body">
-                        <h5>Velocity Rush</h5>
-                        <div class="text-warning">★★★★☆</div>
-                        <p class="price">₹699</p>
-                        <p class="small text-white-50">⬇️ 1M</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Velocity Rush">
-                                <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <!-- STUDIO -->
+            <p class="studio mb-1">Arena Studios</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Action</span>
+                <span class="badge bg-dark">Combat</span>
+                <span class="badge bg-success">Multiplayer</span>
             </div>
 
-            <!-- 4 -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-                    <div class="card-body">
-                        <h5>Drift King</h5>
-                        <div class="text-warning">★★★☆☆</div>
-                        <p class="price">₹599</p>
-                        <p class="small text-white-50">⬇️ 800K</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Drift King">
-                                <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2025 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 1.5M downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹799</span>
+                <span class="badge bg-warning text-dark">GOOD</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Multiplayer arena combat with fast-paced battles and team-based gameplay.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Battle Arena">
+                    <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
             </div>
 
-            <!-- 5 -->
+        </div>
+    </div>
+</div>
+
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
-                    <div class="card-body">
-                        <h5>Turbo Legends</h5>
-                        <div class="text-warning">★★★★☆</div>
-                        <p class="price">₹749</p>
-                        <p class="small text-white-50">⬇️ 950K</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Turbo Legends">
-                                <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="card game-card">
+
+        <img src="https://wallpapercave.com/wp/wp2041824.jpg" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Velocity Rush</h6>
+                <span class="rating text-warning fw-bold">⭐ 4.0</span>
             </div>
 
-            <!-- 6 -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
-                    <div class="card-body">
-                        <h5>Street Nitro</h5>
-                        <div class="text-warning">★★★☆☆</div>
-                        <p class="price">₹499</p>
-                        <p class="small text-white-50">⬇️ 700K</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Street Nitro">
-                                <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <!-- STUDIO -->
+            <p class="studio mb-1">SpeedX Studios</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Racing</span>
+                <span class="badge bg-primary">Arcade</span>
+                <span class="badge bg-success">Multiplayer</span>
             </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2023 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 1M downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹699</span>
+                <span class="badge bg-info">SALE</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Fast-paced arcade racing with smooth gameplay and competitive modes.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Velocity Rush">
+                    <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="card game-card">
+
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Drift King</h6>
+                <span class="rating text-info fw-bold">⭐ 3.0</span>
+            </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">Drift Labs</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Racing</span>
+                <span class="badge bg-dark">Drift</span>
+                <span class="badge bg-success">Simulation</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Single Player <br>
+                📅 2023 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 800K downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹599</span>
+                <span class="badge bg-warning text-dark">DEAL</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Drift-focused racing game with realistic controls and smooth handling mechanics.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Drift King">
+                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+           <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="card game-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Turbo Legends</h6>
+                <span class="rating text-warning fw-bold">⭐ 4.0</span>
+            </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">TurboWorks Studio</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Racing</span>
+                <span class="badge bg-primary">Action</span>
+                <span class="badge bg-success">Multiplayer</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2024 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 950K downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹749</span>
+                <span class="badge bg-danger">-10%</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Competitive racing with high-speed action, upgrades, and online battles.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Turbo Legends">
+                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="card game-card">
+
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Street Nitro</h6>
+                <span class="rating text-info fw-bold">⭐ 3.0</span>
+            </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">Nitro Street Games</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Racing</span>
+                <span class="badge bg-dark">Street</span>
+                <span class="badge bg-success">Multiplayer</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2023 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 700K downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹499</span>
+                <span class="badge bg-success">BEST PRICE</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Street racing with nitro boosts, tight corners, and competitive gameplay.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Street Nitro">
+                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!-- 7 -->
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
-                    <div class="card-body">
-                        <h5>Shadow Strike</h5>
-                        <div class="text-warning">★★★★★</div>
-                        <p class="price">₹899</p>
-                        <p class="small text-white-50">⬇️ 1.3M</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Shadow Strike">
-                                <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="card game-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Shadow Strike</h6>
+                <span class="rating text-warning fw-bold">⭐ 5.0</span>
             </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">Shadow Ops Studio</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-dark">Stealth</span>
+                <span class="badge bg-danger">Action</span>
+                <span class="badge bg-secondary">Shooter</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Single Player <br>
+                📅 2024 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 1.3M downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹899</span>
+                <span class="badge bg-warning text-dark">TOP RATED</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Elite stealth missions with precision combat and immersive tactical gameplay.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Shadow Strike">
+                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!-- 8 -->
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
-                    <div class="card-body">
-                        <h5>Sniper Elite X</h5>
-                        <div class="text-warning">★★★★☆</div>
-                        <p class="price">₹850</p>
-                        <p class="small text-white-50">⬇️ 1.1M</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Sniper Elite X">
-                                <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="card game-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Sniper Elite X</h6>
+                <span class="rating text-warning fw-bold">⭐ 4.0</span>
             </div>
 
-            <!-- 9 -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e">
-                    <div class="card-body">
-                        <h5>BattleStorm</h5>
-                        <div class="text-warning">★★★☆☆</div>
-                        <p class="price">₹720</p>
-                        <p class="small text-white-50">⬇️ 900K</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="BattleStorm">
-                                <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1542751371-adc38448a05e">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <!-- STUDIO -->
+            <p class="studio mb-1">Elite Warfare Studios</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-dark">Sniper</span>
+                <span class="badge bg-danger">Shooter</span>
+                <span class="badge bg-secondary">Tactical</span>
             </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Single Player <br>
+                📅 2024 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 1.1M downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹850</span>
+                <span class="badge bg-warning text-dark">POPULAR</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Precision sniper missions with realistic mechanics and tactical gameplay.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Sniper Elite X">
+                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+            <!-- 9 -->
+           <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+    <div class="card game-card">
+
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">BattleStorm</h6>
+                <span class="rating text-info fw-bold">⭐ 3.0</span>
+            </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">Storm Interactive</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-danger">Action</span>
+                <span class="badge bg-dark">Battle</span>
+                <span class="badge bg-secondary">Online</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2022 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 900K downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹720</span>
+                <span class="badge bg-warning text-dark">STANDARD</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Online battle action with competitive gameplay and evolving combat mechanics.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="BattleStorm">
+                    <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1542751371-adc38448a05e">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
             <!-- 10 -->
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card p-2">
-                    <img src="https://img.utdstc.com/icon/778/5bb/7785bbba733576d8d60f6a673b12593bc069853874947402ea377713bba93555:200">
-                    <div class="card-body">
-                        <h5>Cyber Strike</h5>
-                        <div class="text-warning">★★★★☆</div>
-                        <p class="price">₹880</p>
-                        <p class="small text-white-50">⬇️ 950K</p>
-                        <div class="d-flex gap-2">
-                            <button class="btn btn-primary w-50">Buy</button>
-                            <form action="add_to_library.php" method="POST" class="w-50">
-                                <input type="hidden" name="game_name" value="Cyber Strike">
-                                <input type="hidden" name="game_image" value="https://img.utdstc.com/icon/778/5bb/7785bbba733576d8d60f6a673b12593bc069853874947402ea377713bba93555:200">
-                                <button class="btn btn-download w-100">Download</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="card game-card">
+
+        <img src="https://img.utdstc.com/icon/778/5bb/7785bbba733576d8d60f6a673b12593bc069853874947402ea377713bba93555:200" class="card-img-top">
+
+        <div class="card-body">
+
+            <!-- TITLE + RATING -->
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="mb-1">Cyber Strike</h6>
+                <span class="rating text-warning fw-bold">⭐ 4.0</span>
             </div>
+
+            <!-- STUDIO -->
+            <p class="studio mb-1">CyberTech Studios</p>
+
+            <!-- TAGS -->
+            <div class="tags mb-2">
+                <span class="badge bg-info">Sci-Fi</span>
+                <span class="badge bg-dark">Cyberpunk</span>
+                <span class="badge bg-danger">Shooter</span>
+            </div>
+
+            <!-- DETAILS -->
+            <p class="small text-white-50 mb-1">
+                🎮 PC, Mobile <br>
+                👥 Multiplayer <br>
+                📅 2024 Release
+            </p>
+
+            <!-- DOWNLOAD -->
+            <p class="small text-white-50 mb-1">
+                ⬇️ 950K downloads
+            </p>
+
+            <!-- PRICE -->
+            <p class="price mb-2">
+                <span class="text-success fw-bold">₹880</span>
+                <span class="badge bg-warning text-dark">POPULAR</span>
+            </p>
+
+            <!-- DESCRIPTION -->
+            <p class="desc mb-2">
+                Futuristic shooter with cyberpunk visuals and intense multiplayer combat.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="d-flex gap-2">
+                <!-- BUY BUTTON -->
+                <button class="btn btn-primary w-50">Buy</button>
+
+                <!-- DOWNLOAD -->
+                <form action="add_to_library.php" method="POST" class="w-50">
+                    <input type="hidden" name="game_name" value="Cyber Strike">
+                    <input type="hidden" name="game_image" value="https://img.utdstc.com/icon/778/5bb/7785bbba733576d8d60f6a673b12593bc069853874947402ea377713bba93555:200">
+                    <button class="btn btn-download btn-outline-light w-100">Download</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
         </div>
     </div>

@@ -222,97 +222,243 @@ session_start();
         <h3 class="section-title">🔥 Trending Games</h3>
         <div class="row">
 
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="https://wallpapercave.com/wp/wp10439053.jpg">
-                    <div class="card-body">
-                        <h5>Neon Legends</h5>
-                        <p>⭐⭐⭐⭐⭐ (5.0)</p>
 
-                        <p class="small text-white-50">
-                            🎮 Action <br>
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card game-card">
+
+                    <img src="https://wallpapercave.com/wp/wp10439053.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <!-- TITLE + RATING -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-1">Neon Legends</h6>
+                            <span class="rating">⭐ 5.0</span>
+                        </div>
+
+                        <!-- STUDIO -->
+                        <p class="studio mb-1">Neon Studios</p>
+
+                        <!-- TAGS -->
+                        <div class="tags mb-2">
+                            <span>Action</span>
+                            <span>RPG</span>
+                            <span>Sci-Fi</span>
+                        </div>
+
+                        <!-- DETAILS -->
+                        <p class="small text-white-50 mb-1">
+                            🎮 PC, PS5 <br>
+                            👥 Single Player <br>
+                            📅 2025 Release
+                        </p>
+
+                        <!-- DOWNLOAD -->
+                        <p class="small text-white-50 mb-1">
                             ⬇️ 6M downloads
                         </p>
 
+                        <!-- PRICE -->
+                       <b> <p class="price text-success mb-2">
+                            ₹999 <span class="offer text-danger">-20%</span>
+                        </p></b>
+
+                        <!-- DESCRIPTION -->
+                        <p class="desc mb-2">
+                            Cyber world adventure with intense action gameplay...
+                        </p>
+
+                        <!-- BUTTONS -->
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
+
                             <form action="add_to_library.php" method="POST" class="w-50">
                                 <input type="hidden" name="game_name" value="Neon Legends">
                                 <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp10439053.jpg">
                                 <button class="btn btn-download btn-outline-light w-100">Download</button>
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>
 
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="https://img.freepik.com/premium-photo/call-duty-mobile-hd-art-full-wallpaper-collection-soldier-standing-front-fire-filled-sky_116317-37689.jpg">
-                    <div class="card-body">
-                        <h5>War Zone</h5>
-                        <p>⭐⭐⭐⭐ (4.8)</p>
+                <div class="card game-card">
 
-                        <p class="small text-white-50">
-                            🎮 Action <br>
+                    <img src="https://img.freepik.com/premium-photo/call-duty-mobile-hd-art-full-wallpaper-collection-soldier-standing-front-fire-filled-sky_116317-37689.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <!-- TITLE + RATING -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-1">War Zone</h6>
+                            <span class="rating">⭐ 4.8</span>
+                        </div>
+
+                        <!-- STUDIO -->
+                        <p class="studio mb-1">Infinity Combat</p>
+
+                        <!-- TAGS -->
+                        <div class="tags mb-2">
+                            <span>FPS</span>
+                            <span>Battle Royale</span>
+                            <span>Multiplayer</span>
+                        </div>
+
+                        <!-- DETAILS -->
+                        <p class="small text-white-50 mb-1">
+                            🎮 PC, PS5, Xbox <br>
+                            👥 Multiplayer (100 players) <br>
+                            📅 2025 Release
+                        </p>
+
+                        <!-- DOWNLOAD -->
+                        <p class="small text-white-50 mb-1">
                             ⬇️ 2M downloads
                         </p>
 
+                        <!-- PRICE -->
+                        <b> <p class="price text-success mb-2">
+                            ₹799 <span class="offer text-danger">-10%</span>
+                        </p></b>
+
+                        <!-- DESCRIPTION -->
+                        <p class="desc mb-2">
+                            Intense battle royale experience with real-time combat and strategy.
+                        </p>
+
+                        <!-- BUTTONS -->
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
+
                             <form action="add_to_library.php" method="POST" class="w-50">
                                 <input type="hidden" name="game_name" value="War Zone">
                                 <input type="hidden" name="game_image" value="https://img.freepik.com/premium-photo/call-duty-mobile-hd-art-full-wallpaper-collection-soldier-standing-front-fire-filled-sky_116317-37689.jpg">
                                 <button class="btn btn-download btn-outline-light w-100">Download</button>
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="https://wallpapercave.com/wp/wp2041824.jpg">
-                    <div class="card-body">
-                        <h5>Velocity Rush</h5>
-                        <p>⭐⭐ (2.9)</p>
+                <div class="card game-card">
 
-                        <p class="small text-white-50">
-                            🎮 Action <br>
+                    <img src="https://wallpapercave.com/wp/wp2041824.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <!-- TITLE + RATING -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-1">Velocity Rush</h6>
+                            <span class="rating">⭐ 2.9</span>
+                        </div>
+
+                        <!-- STUDIO -->
+                        <p class="studio mb-1">SpeedX Studios</p>
+
+                        <!-- TAGS -->
+                        <div class="tags mb-2">
+                            <span>Action</span>
+                            <span>Arcade</span>
+                            <span>Racing</span>
+                        </div>
+
+                        <!-- DETAILS -->
+                        <p class="small text-white-50 mb-1">
+                            🎮 PC, Mobile <br>
+                            👥 Single Player <br>
+                            📅 2022 Release
+                        </p>
+
+                        <!-- DOWNLOAD -->
+                        <p class="small text-white-50 mb-1">
                             ⬇️ 1M downloads
                         </p>
 
+                        <!-- PRICE -->
+                        <p class="price mb-2">
+                            Free <span class="badge bg-danger text-dark">LOW RATED</span>
+                        </p>
+
+                        <!-- DESCRIPTION -->
+                        <p class="desc mb-2">
+                            Fast-paced arcade racing with simple controls and quick matches.
+                        </p>
+
+                        <!-- BUTTONS -->
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
+
                             <form action="add_to_library.php" method="POST" class="w-50">
                                 <input type="hidden" name="game_name" value="Velocity Rush">
                                 <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
                                 <button class="btn btn-download btn-outline-light w-100">Download</button>
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>
 
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card">
-                    <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
-                    <div class="card-body">
-                        <h5>Battle Arena</h5>
-                        <p>⭐⭐⭐⭐ (4.8)</p>
+                <div class="card game-card">
 
-                        <p class="small text-white-50">
-                            🎮 Action <br>
+                    <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <!-- TITLE + RATING -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-1">Battle Arena</h6>
+                            <span class="rating">⭐ 4.8</span>
+                        </div>
+
+                        <!-- STUDIO -->
+                        <p class="studio mb-1">Arena Studios</p>
+
+                        <!-- TAGS -->
+                        <div class="tags mb-2">
+                            <span>Action</span>
+                            <span>Combat</span>
+                            <span>Multiplayer</span>
+                        </div>
+
+                        <!-- DETAILS -->
+                        <p class="small text-white-50 mb-1">
+                            🎮 PC, Mobile <br>
+                            👥 Multiplayer (Online) <br>
+                            📅 2025 Release
+                        </p>
+
+                        <!-- DOWNLOAD -->
+                        <p class="small text-white-50 mb-1">
                             ⬇️ 2M downloads
                         </p>
 
+                        <!-- PRICE -->
+                        <b> <p class="price text-success mb-2">
+                            ₹499 <span class="offer text-danger">-5%</span>
+                        </p></b>
+
+                        <!-- DESCRIPTION -->
+                        <p class="desc mb-2">
+                            Engage in intense arena battles with real-time multiplayer action.
+                        </p>
+
+                        <!-- BUTTONS -->
                         <div class="d-flex gap-2">
                             <button class="btn btn-play w-50">Play</button>
+
                             <form action="add_to_library.php" method="POST" class="w-50">
                                 <input type="hidden" name="game_name" value="Battle Arena">
                                 <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
                                 <button class="btn btn-download btn-outline-light w-100">Download</button>
                             </form>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -354,121 +500,301 @@ session_start();
             <div class="row">
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://wallpapercave.com/wp/wp2041824.jpg">
-                        <div class="card-body">
-                            <h5>Speed Racer</h5>
-                            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://wallpapercave.com/wp/wp2041824.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Speed Racer</h6>
+                                <span class="rating">⭐ 5.0</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Turbo Games</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Racing</span>
+                                <span>Arcade</span>
+                                <span>Multiplayer</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2024 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 5M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹799 <span class="offer text-danger">-20%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                High-speed racing with smooth controls and competitive multiplayer modes.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Speed Racer">
                                     <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-                        <div class="card-body">
-                            <h5>Drift King</h5>
-                            <p>⭐⭐⭐⭐ (4.8)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Drift King</h6>
+                                <span class="rating">⭐ 4.8</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Drift Labs</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Racing</span>
+                                <span>Drift</span>
+                                <span>Simulation</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Single Player <br>
+                                📅 2023 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 2M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹379 <span class="offer text-danger">-30%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Master the art of drifting with realistic physics and smooth controls.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Drift King">
                                     <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://wallpapercave.com/wp/wp2041824.jpg">
-                        <div class="card-body">
-                            <h5>Velocity Rush</h5>
-                            <p>⭐⭐⭐ (3.5)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://wallpapercave.com/wp/wp2041824.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Velocity Rush</h6>
+                                <span class="rating">⭐ 3.5</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">SpeedX Studios</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Arcade</span>
+                                <span>Racing</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Single Player <br>
+                                📅 2023 Update
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1.6M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹699 <span class="offer text-danger">-10%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Fast-paced racing experience with simple gameplay and quick challenges.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Velocity Rush">
                                     <input type="hidden" name="game_image" value="https://wallpapercave.com/wp/wp2041824.jpg">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
-                        <div class="card-body">
-                            <h5>Turbo Legends</h5>
-                            <p>⭐⭐⭐⭐ (4.5)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Turbo Legends</h6>
+                                <span class="rating">⭐ 4.5</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">TurboWorks Studio</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Racing</span>
+                                <span>Action</span>
+                                <span>Multiplayer</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2024 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1.5M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹569 <span class="offer text-danger">-8%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Competitive racing battles with fast cars, upgrades, and online modes.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Turbo Legends">
                                     <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZShlFZnRnYgACBsXw6XPqW64SJpyD5JswQ&s">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
-                        <div class="card-body">
-                            <h5>Street Nitro</h5>
-                            <p>⭐⭐⭐⭐ (4)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Street Nitro</h6>
+                                <span class="rating">⭐ 4.0</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Nitro Street Games</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Racing</span>
+                                <span>Arcade</span>
+                                <span>Street</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2023 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1.5M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                Free <span class="badge bg-success text-dark">TRENDING</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Street racing action with nitro boosts, sharp turns, and fast-paced gameplay.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Street Nitro">
                                     <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -480,97 +806,183 @@ session_start();
             <div class="row">
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
-                        <div class="card-body">
-                            <h5>War Arena</h5>
-                            <p>⭐⭐⭐⭐ (4.9)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">War Arena</h6>
+                                <span class="rating">⭐ 4.9</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Warzone Studios</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Battle</span>
+                                <span>Multiplayer</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer (Online) <br>
+                                📅 2025 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 3M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹999 <span class="offer text-danger">-20%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                High-intensity arena battles with competitive multiplayer gameplay and strategy.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="War Arena">
                                     <input type="hidden" name="game_image" value="https://imgs.crazygames.com/battle-arena_16x9/20260227022607/battle-arena_16x9-cover">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
-                        <div class="card-body">
-                            <h5>Shadow Strike</h5>
-                            <p>⭐⭐⭐ (3)</p>
+               
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card game-card">
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Shadow Strike</h6>
+                                <span class="rating">⭐ 3.0</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Shadow Ops Studio</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Stealth</span>
+                                <span>Combat</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Single Player <br>
+                                📅 2022 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 2M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                Free <span class="badge bg-warning text-dark">AVERAGE</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Stealth-based action gameplay with tactical missions and silent combat mechanics.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Shadow Strike">
                                     <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpeHvAQIhTZIDkdcYgOWhLvgqdmH6BcgMog&s">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
+                    <div class="card game-card">
+
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e" class="card-img-top">
+
                         <div class="card-body">
-                            <h5>Sniper Elite X</h5>
-                            <p>⭐⭐⭐⭐ (4.8)</p>
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
-                                ⬇️ 2M downloads
-                            </p>
-
-                            <div class="d-flex gap-2">
-                                <button class="btn btn-play w-50">Play</button>
-                                <form action="add_to_library.php" method="POST" class="w-50">
-                                    <input type="hidden" name="game_name" value="Sniper Elite X">
-                                    <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCtqJcPuuKXFD3bm91T85BvEu9pH3Vt5XJqg&s">
-                                    <button class="btn btn-download btn-outline-light w-100">Download</button>
-                                </form>
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">BattleStorm</h6>
+                                <span class="rating">⭐ 2.5</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e">
-                        <div class="card-body">
-                            <h5>BattleStorm</h5>
-                            <p>⭐⭐ (2.5)</p>
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Storm Interactive</p>
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
-                                ⬇️ 500k downloads
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Battle</span>
+                                <span>Online</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2022 Release
                             </p>
 
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
+                                ⬇️ 500K downloads
+                            </p>
+
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                Free <span class="badge bg-danger text-dark">LOW RATED</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Multiplayer battle game with intense fights, but still improving gameplay experience.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="BattleStorm">
                                     <input type="hidden" name="game_image" value="https://images.unsplash.com/photo-1542751371-adc38448a05e">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -581,97 +993,241 @@ session_start();
             <div class="row">
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHrEveSAunE2NO_3w8tM2jjFOd79KNfFymg&s">
-                        <div class="card-body">
-                            <h5>Sniper Fury</h5>
-                            <p>⭐⭐⭐ (3)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHrEveSAunE2NO_3w8tM2jjFOd79KNfFymg&s" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Sniper Fury</h6>
+                                <span class="rating">⭐ 3.0</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Fury Games</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Shooter</span>
+                                <span>Sniper</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Single Player <br>
+                                📅 2023 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                Free <span class="badge bg-warning text-dark">AVERAGE</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Precision shooting gameplay with sniper missions and tactical challenges.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Sniper Fury">
                                     <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHrEveSAunE2NO_3w8tM2jjFOd79KNfFymg&s">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://i.ytimg.com/vi/eCehDd2VKWo/maxresdefault.jpg">
-                        <div class="card-body">
-                            <h5>Bullet Strike</h5>
-                            <p>⭐⭐⭐⭐ (4)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://i.ytimg.com/vi/eCehDd2VKWo/maxresdefault.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Bullet Strike</h6>
+                                <span class="rating">⭐ 4.0</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">StrikeForce Studios</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Action</span>
+                                <span>Shooter</span>
+                                <span>Multiplayer</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2024 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1.5M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <b> <p class="price text-success mb-2">
+                            ₹899 <span class="offer text-danger">-10%</span>
+                        </p></b>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Fast-paced shooter gameplay with intense battles and competitive multiplayer modes.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Bullet Strike">
                                     <input type="hidden" name="game_image" value="https://i.ytimg.com/vi/eCehDd2VKWo/maxresdefault.jpg">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/1/13/First_edition_of_Empire_Builder_1982.jpg">
-                        <div class="card-body">
-                            <h5>Empire Builder</h5>
-                            <p>⭐⭐⭐⭐ (4.9)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/13/First_edition_of_Empire_Builder_1982.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">Empire Builder</h6>
+                                <span class="rating">⭐ 4.9</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Empire Studios</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Strategy</span>
+                                <span>Simulation</span>
+                                <span>Building</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Single Player <br>
+                                📅 2024 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                ₹299 <span class="badge bg-success text-dark">TOP RATED</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Build and manage your empire with strategic planning and resource control.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="Empire Builder">
                                     <input type="hidden" name="game_image" value="https://upload.wikimedia.org/wikipedia/en/1/13/First_edition_of_Empire_Builder_1982.jpg">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWRkuVHkB7nJwMNlRrUJV8BkJO0Hhj9Ooxw&s">
-                        <div class="card-body">
-                            <h5>War Tactics</h5>
-                            <p>⭐⭐⭐ (3.5)</p>
+                    <div class="card game-card">
 
-                            <p class="small text-white-50">
-                                🎮 Action <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWRkuVHkB7nJwMNlRrUJV8BkJO0Hhj9Ooxw&s" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <!-- TITLE + RATING -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="mb-1">War Tactics</h6>
+                                <span class="rating">⭐ 3.5</span>
+                            </div>
+
+                            <!-- STUDIO -->
+                            <p class="studio mb-1">Tactical War Studios</p>
+
+                            <!-- TAGS -->
+                            <div class="tags mb-2">
+                                <span>Strategy</span>
+                                <span>War</span>
+                                <span>Action</span>
+                            </div>
+
+                            <!-- DETAILS -->
+                            <p class="small text-white-50 mb-1">
+                                🎮 PC, Mobile <br>
+                                👥 Multiplayer <br>
+                                📅 2023 Release
+                            </p>
+
+                            <!-- DOWNLOAD -->
+                            <p class="small text-white-50 mb-1">
                                 ⬇️ 1.5M downloads
                             </p>
 
+                            <!-- PRICE -->
+                            <p class="price mb-2">
+                                Free <span class="badge bg-warning text-dark">AVERAGE</span>
+                            </p>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc mb-2">
+                                Tactical war gameplay with strategic planning and real-time combat scenarios.
+                            </p>
+
+                            <!-- BUTTONS -->
                             <div class="d-flex gap-2">
                                 <button class="btn btn-play w-50">Play</button>
+
                                 <form action="add_to_library.php" method="POST" class="w-50">
                                     <input type="hidden" name="game_name" value="War Tactics">
                                     <input type="hidden" name="game_image" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnWRkuVHkB7nJwMNlRrUJV8BkJO0Hhj9Ooxw&s">
                                     <button class="btn btn-download btn-outline-light w-100">Download</button>
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
