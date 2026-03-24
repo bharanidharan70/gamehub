@@ -102,15 +102,8 @@ session_start();
             transform: translateY(-5px);
         }
 
-        .card img {
-            height: 180px;
-            object-fit: cover;
-        }
 
-        .btn-play {
-            background: #9333ea;
-            border: none;
-        }
+
 
         /* FOOTER */
         .footer {
@@ -153,6 +146,49 @@ session_start();
 
         .footer hr {
             border-color: #334155;
+        }
+
+        /* CARD */
+        .card {
+            background: #1e293b;
+            border-radius: 18px;
+            border: none;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(168, 85, 247, 0.3);
+        }
+
+        /* IMAGE */
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        /* TEXT */
+        .card h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* SMALL TEXT */
+        .small {
+            font-size: 13px;
+        }
+
+        /* BUTTONS */
+        .btn-play {
+            background: linear-gradient(45deg, #9333ea, #3b82f6);
+            border: none;
+            color: white;
+            font-weight: 500;
+        }
+
+        .btn-play:hover {
+            opacity: 0.9;
         }
     </style>
 </head>
@@ -197,7 +233,7 @@ session_start();
     <section class="hero">
         <h1>Neon Legends</h1>
         <p>Experience the ultimate cyberpunk adventure in a neon-lit world.</p>
-        <button class="btn btn-main">Play Now</button>
+        <a href="library.php" class="btn btn-main">Play Now</a>
         <button class="btn btn-light">Learn More</button>
     </section>
 
@@ -260,9 +296,11 @@ session_start();
                         </p>
 
                         <!-- PRICE -->
-                       <b> <p class="price text-success mb-2">
-                            ₹999 <span class="offer text-danger">-20%</span>
-                        </p></b>
+                        <b>
+                            <p class="price text-success mb-2">
+                                ₹999 <span class="offer text-danger">-20%</span>
+                            </p>
+                        </b>
 
                         <!-- DESCRIPTION -->
                         <p class="desc mb-2">
@@ -320,9 +358,11 @@ session_start();
                         </p>
 
                         <!-- PRICE -->
-                        <b> <p class="price text-success mb-2">
-                            ₹799 <span class="offer text-danger">-10%</span>
-                        </p></b>
+                        <b>
+                            <p class="price text-success mb-2">
+                                ₹799 <span class="offer text-danger">-10%</span>
+                            </p>
+                        </b>
 
                         <!-- DESCRIPTION -->
                         <p class="desc mb-2">
@@ -439,9 +479,11 @@ session_start();
                         </p>
 
                         <!-- PRICE -->
-                        <b> <p class="price text-success mb-2">
-                            ₹499 <span class="offer text-danger">-5%</span>
-                        </p></b>
+                        <b>
+                            <p class="price text-success mb-2">
+                                ₹499 <span class="offer text-danger">-5%</span>
+                            </p>
+                        </b>
 
                         <!-- DESCRIPTION -->
                         <p class="desc mb-2">
@@ -535,9 +577,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹799 <span class="offer text-danger">-20%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹799 <span class="offer text-danger">-20%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">
@@ -595,9 +639,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹379 <span class="offer text-danger">-30%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹379 <span class="offer text-danger">-30%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">
@@ -655,9 +701,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹699 <span class="offer text-danger">-10%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹699 <span class="offer text-danger">-10%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">
@@ -715,9 +763,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹569 <span class="offer text-danger">-8%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹569 <span class="offer text-danger">-8%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">
@@ -841,9 +891,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹999 <span class="offer text-danger">-20%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹999 <span class="offer text-danger">-20%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">
@@ -865,7 +917,7 @@ session_start();
                     </div>
                 </div>
 
-               
+
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="card game-card">
@@ -1088,9 +1140,11 @@ session_start();
                             </p>
 
                             <!-- PRICE -->
-                            <b> <p class="price text-success mb-2">
-                            ₹899 <span class="offer text-danger">-10%</span>
-                        </p></b>
+                            <b>
+                                <p class="price text-success mb-2">
+                                    ₹899 <span class="offer text-danger">-10%</span>
+                                </p>
+                            </b>
 
                             <!-- DESCRIPTION -->
                             <p class="desc mb-2">

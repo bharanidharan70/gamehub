@@ -106,6 +106,50 @@
         .footer hr {
             border-color: #334155;
         }
+
+        /* CARD */
+        .card {
+            background: #1e293b;
+            border-radius: 18px;
+            border: none;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(168, 85, 247, 0.3);
+        }
+
+        /* IMAGE */
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        /* TEXT */
+        .card h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* SMALL TEXT */
+        .small {
+            font-size: 13px;
+        }
+
+        /* BUTTONS */
+        .btn-primary {
+            background: linear-gradient(45deg, #9333ea, #3b82f6);
+            border: none;
+            color: white;
+            font-weight: 500;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+
     </style>
 </head>
 
