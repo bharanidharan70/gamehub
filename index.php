@@ -70,6 +70,44 @@ session_start();
             margin-right: 10px;
         }
 
+        .offer-card {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 300px;
+        }
+
+        .offer-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* DARK OVERLAY */
+        .offer-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .offer-overlay h2 {
+            font-weight: bold;
+        }
+
+        .offer-overlay button {
+            margin-top: 10px;
+        }
+
+        .offer-card:hover img {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
         /* SECTION */
         .section-title {
             margin: 50px 0 20px;
@@ -237,19 +275,66 @@ session_start();
         <button class="btn btn-light">Learn More</button>
     </section>
 
-    <div class="container mt-4">
-        <div class="p-4 rounded" style="background: linear-gradient(90deg,#9333ea,#3b82f6);">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h2>🔥 Mega Gaming Sale</h2>
-                    <p>Up to 70% OFF on top games. Limited time offer!</p>
-                    <a href="store.php" class="btn btn-light">Shop Now</a>
+    <div class="container mt-5">
+
+        <h3 class="section-title text-center mb-4">🔥 Mega Gaming Sale</h3>
+
+        <div id="offerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+
+            <div class="carousel-inner">
+
+                <!-- OFFER 1 -->
+                <div class="carousel-item active">
+                    <div class="offer-card">
+                        <img src="https://wallpapercave.com/wp/wp10439053.jpg" class="offer-img">
+
+                        <div class="offer-overlay text-center">
+                            <h2>Cyber Sale 🔫</h2>
+                            <p>Up to 70% OFF</p>
+                            <a class="btn btn-light" href="store.php">Shop Now</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" width="120">
+
+                <!-- OFFER 2 -->
+                <div class="carousel-item">
+                    <div class="offer-card">
+                        <img src="https://img.freepik.com/premium-photo/call-duty-mobile-hd-art-full-wallpaper-collection-soldier-standing-front-fire-filled-sky_116317-37689.jpg" class="offer-img">
+
+                        <div class="offer-overlay text-center">
+                            <h2>Battle Deals 🥷</h2>
+                            <p>Flat 50% OFF</p>
+                            <a class="btn btn-light" href="store.php">Explore</a>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- OFFER 3 -->
+                <div class="carousel-item">
+                    <div class="offer-card">
+                        <img src="https://wallpapercave.com/wp/wp2041824.jpg" class="offer-img">
+
+                        <div class="offer-overlay text-center">
+                            <h2>Racing Mania 🏎️</h2>
+                            <p>Buy 1 Get 1 Free</p>
+                            <a class="btn btn-light" href="store.php">Grab Now</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            <!-- CONTROLS -->
+            <button class="carousel-control-prev" data-bs-target="#offerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" data-bs-target="#offerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
         </div>
+
     </div>
 
     <div class="container">
