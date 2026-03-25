@@ -116,13 +116,13 @@
 
                         <!-- EMAIL -->
                         <div class="mb-3">
-                            <label>Email</label>
+                            <label>Email<span class="text-danger"> *</span></label>
                             <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
                         </div>
 
                         <!-- PASSWORD -->
                         <div class="mb-3 position-relative">
-                            <label>Password</label>
+                            <label>Password<span class="text-danger"> *</span></label>
                             <input type="password" id="password" class="form-control pe-5"
                                 name="password" placeholder="Enter password" required>
 

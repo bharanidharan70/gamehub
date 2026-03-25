@@ -106,26 +106,26 @@
                         <div class="row">
 
                             <div class="col-md-6 mb-3">
-                                <label>Gamer Tag</label>
+                                <label>Gamer Tag <span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" name="gamer_tag" required>
                             </div>
 
                             <div class="col-md-6 mb-3 position-relative">
-                                <label>Password</label>
+                                <label>Password <span class="text-danger"> *</span></label>
                                 <input type="password" id="password" class="form-control pe-5" name="password" required>
                                 <i class="bi bi-eye position-absolute" style="top:38px; right:15px; cursor:pointer;"
                                     onclick="togglePassword('password', this)"></i>
                             </div>
 
                             <div class="col-md-6 mb-3 position-relative">
-                                <label>Confirm Password</label>
+                                <label>Confirm Password <span class="text-danger"> *</span></label>
                                 <input type="password" id="confirmPassword" class="form-control pe-5" name="confirm_password" required>
                                 <i class="bi bi-eye position-absolute" style="top:38px; right:15px; cursor:pointer;"
                                     onclick="togglePassword('confirmPassword', this)"></i>
                             </div>
 
                             <div class="col-md-6 mb-3">
-                                <label>Email</label>
+                                <label>Email <span class="text-danger"> *</span></label>
                                 <input type="email" class="form-control" name="email" required>
                             </div>
 
@@ -135,7 +135,7 @@
                             </div>
 
                             <div class="col-md-4 mb-3">
-                                <label>Gender</label>
+                                <label>Gender <span class="text-danger"> *</span></label>
                                 <select class="form-select" name="gender" required>
                                     <option value="">Select</option>
                                     <option>Male</option>
@@ -145,7 +145,7 @@
                             </div>
 
                             <div class="col-md-4 mb-3">
-                                <label>Country</label>
+                                <label>Country <span class="text-danger"> *</span></label>
                                 <select class="form-select" name="country" required>
                                     <option value="">Select</option>
                                     <option>India</option>
@@ -168,12 +168,12 @@
                             </div>
 
                             <div class="col-md-12 mb-3">
-                                <label>Upload Avatar</label>
+                                <label>Upload Avatar <span class="text-danger"> *</span></label>
                                 <input type="file" class="form-control" name="avatar" required>
                             </div>
 
                             <div class="col-md-12 mb-3">
-                                <input type="checkbox" required> I agree to Terms & Conditions
+                                <input type="checkbox" required> I agree to Terms & Conditions <span class="text-danger"> *</span>
                             </div>
 
                             <div class="col-md-12 mt-3">

@@ -118,7 +118,43 @@
         .footer {
             background: #020617;
             padding: 50px 20px;
-            margin-top: 50px;
+            color: #e5e7eb;
+
+            width: 100%;
+            position: relative;
+            left: 0;
+        }
+
+        .footer h5 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            color: #cbd5e1;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #cbd5e1;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #a855f7;
+        }
+
+        .footer .row {
+            row-gap: 25px;
+        }
+
+        .footer iframe {
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .footer hr {
+            border-color: #334155;
         }
     </style>
 </head>
@@ -241,9 +277,73 @@
 
     </div>
 
-    <!-- FOOTER -->
-    <div class="footer text-center">
-        <p>© 2026 GameHub. All rights reserved.</p>
+     <!-- FOOTER -->
+    <div class="footer">
+        <div class="container-fluid px-5">
+
+            <div class="row">
+
+                <!-- WEBSITE INFO -->
+                <div class="col-md-3">
+                    <h5>🎮 GameHub</h5>
+                    <p>
+                        Your ultimate gaming destination.<br>
+                        Explore, play, and connect with gamers worldwide.
+                    </p>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="library.php">Library</a></li>
+                        <li><a href="store.php">Store</a></li>
+                        <li><a href="community.php">Community</a></li>
+                    </ul>
+                </div>
+
+                <!-- SOCIAL -->
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <p>
+                        🌐 Website <br>
+                        📘 Facebook <br>
+                        🐦 Twitter <br>
+                        📸 Instagram
+                    </p>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>
+                        📧 support@gamehub.com <br>
+                        📞 +91 98765 43210 <br>
+                        📍 Chennai, India
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- MAP -->
+            <div class="mt-4">
+                <iframe
+                    src="https://www.google.com/maps?q=Chennai&output=embed"
+                    width="100%" height="220"
+                    style="border:0;">
+                </iframe>
+            </div>
+
+            <hr>
+
+            <!-- COPYRIGHT -->
+            <div class="text-center mt-3">
+                <p>© 2026 GameHub. All rights reserved.</p>
+                <p>Designed for gamers 🎮</p>
+            </div>
+
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

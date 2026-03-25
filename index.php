@@ -515,7 +515,7 @@ session_start();
                         <div class="card p-3 text-center">
                             <h5>💥 50% OFF</h5>
                             <p>On all racing games</p>
-                            <button class="btn btn-primary">Explore</button>
+                            <a href="store.php" class="btn btn-primary">Explore</a>
                         </div>
                     </div>
 
@@ -523,7 +523,7 @@ session_start();
                         <div class="card p-3 text-center">
                             <h5>🔥 Buy 1 Get 1</h5>
                             <p>Battle games special deal</p>
-                            <button class="btn btn-success">Grab Now</button>
+                            <a href="store.php" class="btn btn-success">Grab Now</a>
                         </div>
                     </div>
 
@@ -531,7 +531,7 @@ session_start();
                         <div class="card p-3 text-center">
                             <h5>⚡ Flash Sale</h5>
                             <p>Ends in 2 hours</p>
-                            <button class="btn btn-danger">Hurry Up</button>
+                            <a href="store.php" class="btn btn-danger">Hurry Up</a>
                         </div>
                     </div>
 
@@ -1299,7 +1299,7 @@ session_start();
                 <div class="card p-3">
                     <h4>Neon Legends</h4>
                     <p>Cyberpunk action adventure</p>
-                    <button class="btn btn-primary">Play Now</button>
+                    <a href="store.php" class="btn btn-primary">Play Now</a>
                 </div>
             </div>
 
@@ -1307,7 +1307,7 @@ session_start();
                 <div class="card p-3">
                     <h4>Battle Arena</h4>
                     <p>Ultimate multiplayer war game</p>
-                    <button class="btn btn-success">Play Now</button>
+                    <a href="store.php" class="btn btn-success">Play Now</a>
                 </div>
             </div>
 
