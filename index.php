@@ -232,7 +232,6 @@ session_start();
 </head>
 
 <body>
-<h1>Gamming Hub</h1>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
 
