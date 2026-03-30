@@ -232,39 +232,70 @@ session_start();
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
 
-            <a class="navbar-brand">🎮 GameHub</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
 
-            <!-- 🔥 HAMBURGER BUTTON -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <a class="navbar-brand fw-bold">🎮 GameHub</a>
 
-            <!-- MENU -->
-            <div class="collapse navbar-collapse" id="navMenu">
+        <!-- HAMBURGER -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <ul class="navbar-nav mx-auto text-center">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="library.php">Library</a></li>
-                    <li class="nav-item"><a class="nav-link" href="store.php">Store</a></li>
-                    <li class="nav-item"><a class="nav-link" href="community.php">Community</a></li>
-                </ul>
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="navMenu">
 
-                <div class="text-center mt-2 mt-lg-0">
-                    <?php if (isset($_SESSION['user_id'])) { ?>
-                        <span class="text-white me-2">👤 <?php echo $_SESSION['gamer_tag']; ?></span>
-                        <a href="profile.php" class="btn btn-login me-2">Profile</a>
-                        <a href="logout.php" class="btn btn-danger">Logout</a>
-                    <?php } else { ?>
-                        <a href="login.php" class="btn btn-login">Sign In</a>
-                    <?php } ?>
-                </div>
+            <ul class="navbar-nav mx-auto text-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="library.php">Library</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="store.php">Store</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="community.php">Community</a>
+                </li>
+
+
+            </ul>
+
+            <!-- RIGHT SIDE -->
+            <div class="text-center mt-2 mt-lg-0">
+
+                <?php if (isset($_SESSION['user_id'])) { ?>
+
+                    <span class="text-white me-2">
+                        👤 <?= $_SESSION['gamer_tag']; ?>
+                    </span>
+
+                    <a href="profile.php" class="btn btn-primary btn-sm me-2">Profile</a>
+
+                    <!-- 🔥 ADMIN QUICK BUTTON -->
+                    <?php if(isset($_SESSION['role']) && $_SESSION['role']=='admin'): ?>
+                        <a href="admin.php" class="btn btn-warning btn-sm me-2">Admin</a>
+                    <?php endif; ?>
+
+                    <a href="logout.php" class="btn btn-danger btn-sm">Logout</a>
+
+                <?php } else { ?>
+
+                    <a href="login.php" class="btn btn-success btn-sm">Sign In</a>
+
+                <?php } ?>
 
             </div>
+
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- HERO -->
     <section class="hero">
