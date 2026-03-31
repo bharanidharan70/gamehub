@@ -62,8 +62,17 @@ VALUES
 ('$gamer_tag', '$email', '$hashed_password', '$dob', '$gender', '$country', '$favorite_game', '$gamer_level', '$new_name')";
 
 if ($conn->query($sql)) {
-    header("Location: login.php");
+
+    echo "<script>
+    alert('🎉 Registration Successful! Please login');
+    window.location='login.php';
+    </script>";
     exit();
+
 } else {
-    echo "❌ Database Error: " . $conn->error;
+
+    echo "<script>
+    alert('❌ Database Error: ".$conn->error."');
+    window.history.back();
+    </script>";
 }
