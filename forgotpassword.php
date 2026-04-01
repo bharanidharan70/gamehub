@@ -43,7 +43,6 @@
         .form-control {
             padding: 10px;
             border-radius: 8px;
-
             color: black;
             border: none;
         }
@@ -94,8 +93,8 @@
                 <div class="col-md-7 right-container">
 
                     <div class="text-center mb-4">
-                        <h3 class="text-dark">Forgot Password</h3>
-                        <p class="text-muted">Enter your email to reset password</p>
+                        <h3 class="text-dark">Forgot Password 🔐</h3>
+                        <p class="text-muted">Enter your email to receive an OTP</p>
                     </div>
 
                     <!-- ERROR MESSAGE -->
@@ -105,14 +104,23 @@
                         </div>
                     <?php } ?>
 
+                    <!-- SUCCESS MESSAGE -->
+                    <?php if (isset($_GET['success'])) { ?>
+                        <div class="alert alert-success text-center">
+                            ✅ OTP sent to your email
+                        </div>
+                    <?php } ?>
+
                     <form action="forgot_action.php" method="POST">
 
                         <div class="mb-3">
-                            <label class="mb-2">Email</label>
-                            <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+                            <label class="mb-2">Email Address</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter your registered email" required>
                         </div>
 
-                        <button type="submit" class="btn btn-submit w-100 text-white">Reset Password</button>
+                        <button type="submit" class="btn btn-submit w-100 text-white">
+                            Send OTP
+                        </button>
 
                     </form>
 
