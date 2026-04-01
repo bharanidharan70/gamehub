@@ -16,7 +16,7 @@ if ($result && $result->num_rows > 0) {
     // 🔐 generate OTP
     $otp = rand(100000, 999999);
 
-    // ⏳ expiry (5 mins)
+    // ⏳ expiry (15 mins)
     $expiry = date("Y-m-d H:i:s", strtotime("+15 minutes"));
 
     // update DB

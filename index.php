@@ -278,7 +278,7 @@ session_start();
 
                     <a href="profile.php" class="btn btn-primary btn-sm me-2">Profile</a>
 
-                    <!-- 🔥 ADMIN QUICK BUTTON -->
+                    <!--  ADMIN QUICK BUTTON -->
                     <?php if(isset($_SESSION['role']) && $_SESSION['role']=='admin'): ?>
                         <a href="admin.php" class="btn btn-warning btn-sm me-2">Admin</a>
                     <?php endif; ?>

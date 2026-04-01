@@ -26,7 +26,7 @@ $data = $total->fetch_assoc();
     <!-- DataTables CSS -->
     <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 
-    <!-- 🔥 jQuery FIRST -->
+    <!-- jQuery FIRST -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <!-- DataTables JS -->
@@ -59,7 +59,7 @@ $data = $total->fetch_assoc();
             margin-bottom: 15px;
         }
 
-        /* 🔥 dropdown + search */
+        /* dropdown + search */
         .dataTables_length select,
         .dataTables_filter input {
             background: white;
@@ -68,12 +68,12 @@ $data = $total->fetch_assoc();
             padding: 5px;
         }
 
-        /* 🔥 pagination container */
+        /* pagination container */
         .dataTables_paginate {
             margin-top: 20px;
         }
 
-        /* 🔥 pagination buttons */
+        /* pagination buttons */
         .dataTables_paginate .paginate_button {
             background: #1e293b !important;
             color: white !important;
@@ -85,23 +85,23 @@ $data = $total->fetch_assoc();
             text-decoration: none !important;
         }
 
-        /* 🔥 active page */
+        /* active page */
         .dataTables_paginate .paginate_button.current {
             background: #9333ea !important;
         }
 
-        /* 🔥 hover */
+        /* hover */
         .dataTables_paginate .paginate_button:hover {
             background: #4c1d95 !important;
             color: white !important;
         }
 
-        /* 🔥 info text */
+        /* info text */
         .dataTables_info {
             margin-top: 10px;
         }
 
-        /* 🔥 remove sort arrows */
+        /* remove sort arrows */
         table.dataTable thead .sorting,
         table.dataTable thead .sorting_asc,
         table.dataTable thead .sorting_desc {
